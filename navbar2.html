@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navbar</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: sans-serif;
+
+        }
+        body {
+            height: 100vh;
+            width: 100%;
+            
+        }
+        .container {
+            width: 250px ;
+            background-color: rgb(11, 32, 43);
+            height: 100vh;
+
+            /* position: fixed;
+            left: -250px;
+            width: 250px;
+            height: 100%;
+            background: #042331;
+            transition: all .5s ease; */
+
+        }
+
+        .header h1{
+            color: white;
+            text-align: center;
+            padding: 15px;
+            background-color: rgb(33, 72, 92);
+            font-weight: 400;
+            user-select: none;
+            /* font-size: 40px; */
+
+        }
+        .content {
+            /* margin-left: 20px; */
+            padding: 20px 30px;
+            color: white;
+            font-size: 20px;
+            font-family: sans-serif;
+            border-bottom: 1px solid rgb(0, 0, 0);
+            border-top: 1px solid rgba(255,255,255,.1);
+            transition: .4s;
+            /* outline: 1px solid ; */
+            box-sizing: border-box;
+        }
+        span {
+            /* margin-bottom: 55px; */
+            margin: 15px;
+
+        }
+        .content:hover {
+            padding-left: 40px;
+            transition: 0.3s ease-in-out ;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>My Apps</h1>
+        </div>
+
+        <div class="content">
+            <i class='bx bxs-category-alt' style='color:#ffffff'><span>Dashboard</span></i>
+        </div>
+        
+        <div class="content">
+            <i class='bx bx-link' style='color:#ffffff'><span>Shortcut</span></i>            
+        </div>
+
+        <div class="content">
+            <i class='bx bx-menu-alt-left'><span>Overview</span></i>
+        </div>
+
+        <div class="content">
+            <i class='bx bx-briefcase'><span>Events</span></i>
+        </div>
+
+        <div class="content">
+            <i class='bx bx-help-circle' style='color:#ffffff'><span>About</span></i>           
+        </div>
+
+        <div class="content">
+            <i class='bx bx-water'><span>Services</span></i>           
+        </div>
+
+        <div class="content">
+            <i class='bx bx-envelope-open'><span>Contact</span></i>
+        </div>
+        
+    </div>
+</body>
+</html>
+
+<!-- </i>
+
+<i class='bx bx-notepad'></i>
+<i class='bx bxs-bible' style='color:#fff7f7'  ></i>
+<i class='bx bx-info-square'></i> -->
